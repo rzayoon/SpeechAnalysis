@@ -22,3 +22,4 @@ Zero Crossing rate(영교차점)와 Energy는 주로 각 프레임이 유성음�
 
 Pitch는 AMDF 알고리즘을 활용하여 얻는다.
 
+이 코드에서는 Voiced/Unvoiced의 구별하는 정확성을 높이기 위해 일반적인 Pitch 값을 벗어나는 경우도 구별점으로 두었다.
